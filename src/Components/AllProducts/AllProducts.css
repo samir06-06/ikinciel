@@ -1,0 +1,41 @@
+
+.new-in{
+    font-size: 30px;
+    margin:50px 0;
+    color: var(--primary-color)
+}
+
+.see-all{
+    font-size: 25px;
+    margin: 10px 0;
+    color: var(--secondary-color);
+    text-decoration: none;
+}
+
+.search-h3{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.form-floating input{
+    padding-left: 5px ;
+    line-height: 28px;
+    border:1px solid rgb(222, 226, 230);
+    border-top-right-radius: 5px;
+    border-bottom-right-radius: 5px;
+}
+
+.form-floating{
+    height: 20px ;
+}
+
+.search {
+    height: 10px;
+}
+
+.input-group{
+    height: 10px ;
+}
+
+    

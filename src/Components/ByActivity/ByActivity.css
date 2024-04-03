@@ -1,0 +1,24 @@
+#activity{
+    margin: 20px 0;
+}
+
+.activity-cards{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    gap: 100px;
+}
+
+#activity h1{
+    margin: 20px 0;
+}
+
+
+.activities-left{
+    /* flex: 5; */
+    /* height: 800px; */
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    gap: 50px;
+}

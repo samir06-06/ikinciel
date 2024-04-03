@@ -1,0 +1,42 @@
+.sign-login{
+    background: url('../SignUp/login-bg.jpg') center center/cover no-repeat;
+    /* width: 1500px; */
+}
+
+.sign-login p a{
+    cursor: pointer;
+}
+
+.sign-login .form-control-lg{
+    line-height: 17px;
+    font-size: 16px;
+    padding: 8px ;
+    width: 450px;
+}
+
+.sign-login .form-label{
+    color: rgb(91, 91, 91);
+}
+
+.sign-login label{
+    font-size: 14px;
+}
+
+.sign-login .btn-success{
+    background-color: var(--primary-color);
+    border-color: var(--primary-color);
+    color:white !important;       
+}
+
+.sign-login .btn-success:focus{
+    border-color: var(--primary-color);
+    background-color: var(--primary-color);
+}
+
+.sign-login .fw-bold{
+    color: var(--secondary-color) !important;
+}
+
+.sign-login u{
+    color: var(--secondary-color) !important;
+}

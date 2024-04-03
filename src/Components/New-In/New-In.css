@@ -1,0 +1,21 @@
+.new-in-see-all{
+    display: flex;
+    /* flex-direction: column; */
+    justify-content: center;
+    align-items: baseline;
+    height: 150px;
+
+}
+
+.new-in-see-all h2{
+    margin-bottom: 0;
+    margin-right: 20px;
+}
+
+
+.new-in-see-all a{
+    text-decoration: none;
+    font-size: 20px;
+    color: gold
+}
+

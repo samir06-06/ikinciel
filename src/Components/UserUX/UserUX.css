@@ -1,0 +1,100 @@
+#user-ux{
+    display: flex;
+    flex-direction: column;
+    padding:0 200px ;
+}
+
+.user-main{
+    display: flex;
+    flex-direction: row;
+    gap: 40px;
+    padding: 20px 0;
+}
+
+.user-img{
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    background: black;
+}
+
+.user-basic-info{
+    font-weight: 500;
+    display: flex;
+    gap:15px;
+    flex-direction: column;
+    justify-content: center;
+    align-items: start;
+}
+
+#icon-tabpanel-0{
+    display: flex;
+    justify-content: center;
+}
+
+.tab-pane{
+    margin: 20px 0 40px 0;
+}
+
+.pic-input{
+    position: relative;
+    top:0;
+    /* background-color: red; */
+    width: 160px;
+    height: 160px;
+    border-radius: 50%;
+    opacity: 0;
+    
+    cursor: pointer;
+}
+
+form .col-sm-10{
+    margin-bottom: 15px !important  
+}
+
+
+.create-post{
+    padding-top:150px ;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    /* min-height: 100vh; */
+    height: 122%;
+    width: 100%;
+    display: none;
+}
+
+.create-post form{
+     /* margin-top: 200px; */
+     width: 800px;
+     margin: auto;
+     background: #fff;
+     padding:  60px 30px;
+     border-radius: 5px;
+}
+
+
+
+.editing form{
+    /* margin-top: 200px; */
+    width: 800px;
+    margin: auto;
+    background: #fff;
+    padding:  60px 30px;
+    border-radius: 5px;
+}
+
+.editing{
+    padding-top:150px ;
+    z-index: 10;
+    position: absolute;
+    top: 0;
+    left: 0;
+    background: rgba(0, 0, 0, 0.6);
+    overflow-y: hidden;
+    height: 122%;
+    width: 100%;
+    display: none;
+}

@@ -1,0 +1,59 @@
+.card2{
+    margin:60px 0;
+    width: 88.5%;
+    height: 380px;
+    background: black;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    padding:60px;
+}
+
+.card2::before{
+    display: none;
+}
+
+.mail-body{
+    flex: 1;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: end;
+}
+
+.bg-blur{
+    justify-content: space-between;
+    padding: 28px;
+    background: grey;
+    border-radius: 10px;
+    width: 400px;
+}
+
+
+
+.bg-blur p{
+    font-size: 12px;
+    margin: 15px 0;
+    color: white;
+}
+
+.bg-blur p a{
+    color: inherit;
+}
+
+
+.col{
+    display: flex;
+    justify-content: center;
+}
+
+.card-body-2{
+    left: 0px;
+    top: 50px;
+    flex:1
+}
+
+.card-title-2{
+    font-size: 47px;
+    font-weight: 700;
+}

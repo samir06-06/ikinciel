@@ -1,0 +1,33 @@
+.card-item{
+    height: 100%;
+    border: 1px solid grey;
+    border-radius: 5px;
+    padding: 13px;
+    width:100%;
+}
+
+.card-item img{
+    background: black;
+    width: 100%;
+    height: 300px;
+    /* box-sizing: border-box; */
+    border-radius: 3px;
+    border: 1px grey solid;
+}
+
+.card-title-item{
+    font-size: 18px;
+    font-weight: 700;
+    color: black;
+    margin: 10px 0;
+}
+
+
+.sale-button{
+    border: 1px var(--primary-color) solid;
+    border-radius: 3px;
+    color: var(--primary-color);
+    font-size: 13px;
+    width: 100%;
+    height: 35px;
+}

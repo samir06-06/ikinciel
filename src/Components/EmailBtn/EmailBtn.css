@@ -1,0 +1,22 @@
+.get-code{
+    display: flex;
+    flex-direction: row; 
+    gap:15px;
+}
+
+.get-code input{
+    font-size: 14px;
+}
+
+.bg-green{
+    border-color: #3c6469 !important;
+    font-size: 14px;
+    width: 160px;
+    background: var(--primary-color) !important;
+    padding:10px 0px !important;
+}
+
+.bg-green :hover{
+    background: #2a4548;
+}
+

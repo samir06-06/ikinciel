@@ -1,0 +1,63 @@
+.row{
+    display:flex ;
+    justify-content: center;
+}
+
+.col{
+    width: 100%;
+    overflow: hidden;
+}
+
+.card1{
+    width: 100%;
+    position: relative;
+    top: -20px;
+    height: 450px;
+    border-radius: 10px;
+    background: url('../Card1/retro.jpg')  center center ;
+    color: white;
+}
+
+.card1::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    background: rgba(0, 0, 0, 0.3); 
+    /* z-index: 1; */
+}
+
+.card-title-main{
+    font-size: 55px;
+    line-height: 1em;
+}
+
+.card-text-main{
+    margin-top: 30px;
+    font-weight: 500;
+    font-size: 18px;
+    margin-bottom: 50px;
+}
+
+.card-body-main{
+    position: relative;
+    top: 90px;
+    left: 70px;
+}
+
+.card-body span{
+    font-weight: 700;
+}
+
+.btnn{
+    /* margin: 20px 0 0 0; */
+    color: white;
+    text-decoration: none;
+    font-weight: 500;
+    /* background: rgba(0,0,0,0); */
+    border: 2px white solid;
+    padding: 13px 25px ;
+    border-radius: 5px;
+  }

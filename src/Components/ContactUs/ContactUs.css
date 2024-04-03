@@ -1,0 +1,23 @@
+#contact{
+    display: flex;
+    margin: 100px 0;
+    gap: 30px
+}
+
+.info{
+    flex:1;
+}
+
+.input{
+    flex:1;
+}
+
+#contact ul{
+    margin:0;
+    padding:0;
+    list-style: none;
+}
+
+#contact .icons{
+    width: 200px;
+}
